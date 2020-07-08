@@ -14,6 +14,7 @@ let data = [
     },
 ]
 const search = funcHelper(data,"id",2)
+console.log(search)
 if(search !== -1){
     let indexFound = search
     let add = {
