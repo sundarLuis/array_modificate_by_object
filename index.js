@@ -1,4 +1,4 @@
-const _ = require('lodash')
+const funcHelper = require('./helper/func')
 let data = [
     {
         "id":1,
@@ -13,13 +13,14 @@ let data = [
         "name":"daniel"
     },
 ]
-let copyArrayObjcts = _.cloneDeep(data);
-let copyArrayObjcts2 = data;
-let add = {
-    temp : "xD"
+const search = funcHelper(data,"id",2)
+if(search !== -1){
+    let indexFound = search
+    let add = {
+        temp : "tem",
+        temp2 : 0,
+        temp3 : true,
+    }
+    data[indexFound] = {...data[indexFound],...add}
+    console.log(data)
 }
-data[0] = {...data[0],...add}
-
-console.log(data)
-console.log(copyArrayObjcts)
-console.log(copyArrayObjcts2)
