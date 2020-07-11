@@ -1,0 +1,17 @@
+commit 6d5c9ba980b4ef361c8ab58cdf3c14e9a587436a
+Author: Luis Sundar <sundarluis98@gmail.com>
+Date:   Tue Jul 7 20:23:30 2020 -0500
+
+    finish
+
+commit de8b98b01246e81f83251970b3110cd16aa3eb7d
+Author: Luis Sundar <sundarluis98@gmail.com>
+Date:   Tue Jul 7 19:45:54 2020 -0500
+
+    js error display and fix with dependence -> lodash
+
+commit 244d264a9b0393cc4dc490159659adfbf415cd81
+Author: Luis Sundar <sundarluis98@gmail.com>
+Date:   Tue Jul 7 19:36:22 2020 -0500
+
+    starting
